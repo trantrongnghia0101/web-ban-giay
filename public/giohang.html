@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping mall</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://kit.fontawesome.com/416b6db665.js" crossorigin="anonymous"></script>
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .btn-xoa{
+        background-color: rgb(232, 81, 81);
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpg" alt="Nike Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="tintuc.html">Thông tin mới</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Nam</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Nữ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Về chúng tôi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="giohang.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="dangky.html" class="btn2 btn-primary me-2">Đăng ký</a>
+              <a href="dangnhap.html" class="btn2 btn-outline-primary">Đăng nhập</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  <div class="container mt-5">
+    <h1>Shopping Cart</h1>
+    <div class="row">
+      <div class="col-md-9">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/hinh2.webp" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Nike Air Force 1 '07 </h5>
+                <p class="card-text">Price: 3.000.000đ</p>
+                <button class="btn-xoa btn btn-danger">Xóa <i class="fa-solid fa-trash"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/hinh1.webp" alt="Product Image" class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Force 1 '07 </h5>
+                  <p class="card-text">Price: 3.000.000đ</p>
+                  <button class="btn-xoa btn btn-danger">Xóa <i class="fa-solid fa-trash"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/hinh3.webp" alt="Product Image" class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Force 1 '07 </h5>
+                  <p class="card-text">Price: 3.000.000đ</p>
+                  <button class="btn-xoa btn btn-danger">Xóa <i class="fa-solid fa-trash"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-3">
+          <h4>Tổng: 9.000.000đ</h4>
+          <h5>Phương thức thanh toán:</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="paymentOption" id="paymentOption1" checked>
+            <label class="form-check-label" for="paymentOption1">
+              Thẻ ngân hàng
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="paymentOption" id="paymentOption2">
+            <label class="form-check-label" for="paymentOption2">
+              PayPal
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="paymentOption" id="paymentOption3">
+            <label class="form-check-label" for="paymentOption3">
+              Tiền mặt
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-3">
+      <button class="btn2 btn-primary">Checkout</button>
+    </div>
+  </div>
+</body>
+</html>
